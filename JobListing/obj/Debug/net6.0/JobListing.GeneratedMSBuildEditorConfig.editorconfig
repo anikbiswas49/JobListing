@@ -8,45 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JobListing
 build_property.RootNamespace = JobListing
-build_property.ProjectDir = D:\RandD\JobListing\JobListing\JobListing\
+build_property.ProjectDir = D:\personal\JobListing\JobListing\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\RandD\JobListing\JobListing\JobListing
+build_property.MSBuildProjectDirectory = D:\personal\JobListing\JobListing
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/RandD/JobListing/JobListing/JobListing/Views/Account/login.cshtml]
+[D:/personal/JobListing/JobListing/Views/Account/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RandD/JobListing/JobListing/JobListing/Views/Account/SignUp.cshtml]
+[D:/personal/JobListing/JobListing/Views/Account/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/personal/JobListing/JobListing/Views/Account/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RandD/JobListing/JobListing/JobListing/Views/Home/Index.cshtml]
+[D:/personal/JobListing/JobListing/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RandD/JobListing/JobListing/JobListing/Views/Home/Privacy.cshtml]
+[D:/personal/JobListing/JobListing/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RandD/JobListing/JobListing/JobListing/Views/Shared/Error.cshtml]
+[D:/personal/JobListing/JobListing/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RandD/JobListing/JobListing/JobListing/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/personal/JobListing/JobListing/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RandD/JobListing/JobListing/JobListing/Views/_ViewImports.cshtml]
+[D:/personal/JobListing/JobListing/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RandD/JobListing/JobListing/JobListing/Views/_ViewStart.cshtml]
+[D:/personal/JobListing/JobListing/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RandD/JobListing/JobListing/JobListing/Views/Shared/_Layout.cshtml]
+[D:/personal/JobListing/JobListing/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8wwkwelmg3

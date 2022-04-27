@@ -1,5 +1,6 @@
 ﻿using JobListing.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace JobListing.Controllers
@@ -7,15 +8,17 @@ namespace JobListing.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly JobDbContext _dbContext;
+        public HomeController(ILogger<HomeController> logger, JobDbContext dbContext)
         {
             _logger = logger;
+            _dbContext = dbContext;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<JobCategory> categores = await _dbContext.JobCategories.ToListAsync();
+            return View(categores);
         }
 
         public IActionResult Privacy()

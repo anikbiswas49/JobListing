@@ -4,6 +4,63 @@
 
 <div class="text-center">
     <h1 class="display-4">Create Account</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+ </div>
+ 
 
+
+ <div class="row mt-5">
+     <form method="post" asp-controller="Account" asp-action="SignUp">
+     <div class="col-8 offset-2">
+              <div class="error-section">
+                 <ul>
+                     @foreach (var modeleState in ViewData.ModelState.Values)
+                     {
+                        foreach (var error in modeleState.Errors)
+                         {
+                            <li style="color:red;margin-top:8px;">@error.ErrorMessage</li>
+                         }
+                      }
+                 </ul>
+             </div>
+         <div class="row">
+             <div class="col-6">
+                  <div class="mb-1">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter your Name">
+                  </div>
+             </div>
+             <div class="col-6">
+                  <div class="mb-1 d-flex flex-column">
+                    <label for="gender" class="form-label">Gender</label>
+                    <div class="btn-group" id="gender" role="group" aria-label="Basic radio toggle button group">
+                      <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+                      <label class="btn btn-outline-primary" for="btnradio1">Male</label>
+
+                      <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                      <label class="btn btn-outline-primary" for="btnradio2">Female</label>
+
+                      <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                      <label class="btn btn-outline-primary" for="btnradio3">Other</label>
+                    </div>
+                  </div>
+             </div>
+             <div class="col-6">
+                  <div class="mt-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="Email" id="email" placeholder="Enter your Email">
+                  </div>
+             </div>
+             <div class="col-6">
+                  <div class="mt-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" name="Password" class="form-control" id="password" placeholder="Enter your Password">
+                  </div>
+             </div>
+
+         </div>
+
+         <button type="submit" class="mt-3 btn btn-primary">SignUp</button>
+
+     </div>
+     </form>
+ </div>

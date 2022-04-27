@@ -1,25 +1,59 @@
-﻿@{
+﻿@model ICollection<JobCategory>
+@{
     ViewData["Title"] = "Home Page";
 }
+<section class="hero-section">
+    <div class="row mt-5">
+        <div class="col-md-8 offset-2">
+            <h3>Find The right job</h3>
+            <div class="d-flex mt-3">
+                <input type="text" class="form-control" placeholder="Search By keyword" />
+                <button class="btn btn-primary m-1">Serach</button>
+            </div>
 
+            <div class="row mt-5">
+                <div class="col-3 d-flex">
+                    <div class="icon-circle m-2">
+                        <i class="fa-solid fa-dna"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span>Live Job</span>
+                        <strong>4,200</strong>
+                    </div>
+                </div>
 
-<div class="row">
-    <div class="col-md-8 offset-2">
-        <h3>Find The right job</h3>
-        <div class="d-flex">
-            <input type="text" class="form-control" placeholder="Search By keyword" />
-            <button class="btn btn-primary m-1">Serach</button>
-        </div>
+                <div class="col-3 d-flex">
+                    <div class="icon-circle m-2">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span>VACANCIES</span>
+                        <strong>4,200</strong>
+                    </div>
+                </div>
+                <div class="col-3 d-flex">
+                    <div class="icon-circle m-2">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span>Companies</span>
+                        <strong>4,200</strong>
+                    </div>
+                </div>
+                <div class="col-3 d-flex">
+                    <div class="icon-circle m-2">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <span>New Job</span>
+                        <strong>4,200</strong>
+                    </div>
+                </div>
 
-        <div class="row mt-5">
-            <div class="col-3">Live Job</div>
-            <div class="col-3">Live Job</div>
-            <div class="col-3">Live Job</div>
-            <div class="col-3">Live Job</div>
+            </div>
         </div>
     </div>
-</div>
-
+</section>
 <section class="mt-5">
     <div class="row">
         <div class="col-8">
@@ -63,3 +97,18 @@
     </div>
 </section>
 
+
+
+<style>
+    .icon-circle {
+        color: white;
+        background: #2a5992;
+        padding: 10px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .hero-section {
+        min-height: 50vh;
+       
+    }
+</style>
